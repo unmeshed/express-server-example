@@ -5,6 +5,9 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const {UnmeshedClient} = require("@unmeshed/sdk");
 
+// REPLACE these credentials with your own.
+// Do not use these credentials in a browser.
+// Refer to the browser example and leverage webhooks and user tokens directly.
 const unmeshedClient = new UnmeshedClient({
     baseUrl: 'http://localhost',
     port: 8080,
