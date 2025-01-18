@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "@unmeshed/sdk": "1.0.19",
+    "@unmeshed/sdk": "1.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "^5.0.1",
