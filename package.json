@@ -1,12 +1,12 @@
 {
   "name": "express-server-example",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "@unmeshed/sdk": "1.0.15",
+    "@unmeshed/sdk": "1.0.19",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "^5.0.1",
